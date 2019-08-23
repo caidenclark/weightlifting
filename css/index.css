@@ -226,6 +226,36 @@ h5,
 h6 {
   font-family: 'Titillium Web', sans-serif;
 }
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation h2 {
+  font-weight: bold;
+  font-size: 4rem;
+  font-family: 'Livvic', sans-serif;
+  color: #8f008f;
+  padding: 1.5rem;
+}
+.navigation nav {
+  padding: 1rem 2rem 1rem 0rem;
+}
+.navigation nav a {
+  text-decoration-line: none;
+  color: black;
+  font-size: 1.8rem;
+  padding-right: 2rem;
+  font-family: 'Livvic', sans-serif;
+  font-weight: bold;
+}
+.navigation nav a:hover {
+  color: #8f008f;
+}
 header {
   margin: 0 auto;
   display: flex;
@@ -235,21 +265,21 @@ header {
   background-size: 100%;
 }
 header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   text-align: center;
-  margin: 9.5rem auto;
+  margin: 5rem auto;
   text-shadow: 3px 3px black;
-  line-height: 2.5rem;
+  line-height: 3.8rem;
 }
 @media (min-width: 500px) {
   header {
     height: 20rem;
   }
   header h1 {
-    font-size: 3rem;
-    margin: 12rem auto;
-    line-height: 3.5rem;
+    font-size: 4.5rem;
+    margin: 6rem auto;
+    line-height: 4.8rem;
   }
 }
 @media (min-width: 800px) {
